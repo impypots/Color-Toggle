@@ -1,0 +1,87 @@
+$pastel-pink: #ffaaaaff;
+$pastel-blue: #89cff0ff;
+
+* {
+    margin: 0;
+}
+
+body {
+    background-color: $pastel-pink;
+    transition: background 0.4s ease;
+}
+
+#title {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    background: black;
+    color: white;
+    height: 15vh;
+    line-height: 15vh;
+    transition: background 0.4s ease, color 0.4s ease;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+#circlepink1 {
+    margin: auto;
+    width: 25vh;
+    height: 25vh;
+    border-radius: 100%;
+    background: #ff6969ff;
+    cursor: pointer;
+    transition: background 0.4s ease;
+}
+
+#circlepink2 {
+    margin: 2.5vh;
+    width: 20vh;
+    height: 20vh;
+    border-radius: 100%;
+    background: #ff3a3aff;
+    display: flex;
+    transition: background 0.4s ease;
+}
+
+#circleblue1 {
+    margin: auto;
+    width: 25vh;
+    height: 25vh;
+    border-radius: 100%;
+    background: #ffcacaff;
+    margin-top: 5vh;
+    cursor: pointer;
+    transition: background 0.4s ease;
+}
+
+#circleblue2 {
+    margin: 2.5vh;
+    width: 20vh;
+    height: 20vh;
+    border-radius: 100%;
+    background: #ffdadaff;
+    display: flex;
+    transition: background 0.4s ease;
+}
+
+#pinkufo {
+    height: 10vh;
+    margin: auto;
+    filter: contrast(100%);
+    transition: filter 0.4s ease;
+}
+
+#bluerocket {
+    height: 10vh;
+    margin: auto;
+    filter: contrast(0%);
+    transition: filter 0.4s ease;
+}
+
+#toggle-box {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vh;
+}

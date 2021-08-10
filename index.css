@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #ffaaaaff;
+  -webkit-transition: background 0.4s ease;
+  transition: background 0.4s ease;
+}
+
+#title {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  background: black;
+  color: white;
+  height: 15vh;
+  line-height: 15vh;
+  -webkit-transition: background 0.4s ease, color 0.4s ease;
+  transition: background 0.4s ease, color 0.4s ease;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+#circlepink1 {
+  margin: auto;
+  width: 25vh;
+  height: 25vh;
+  border-radius: 100%;
+  background: #ff6969ff;
+  cursor: pointer;
+  -webkit-transition: background 0.4s ease;
+  transition: background 0.4s ease;
+}
+
+#circlepink2 {
+  margin: 2.5vh;
+  width: 20vh;
+  height: 20vh;
+  border-radius: 100%;
+  background: #ff3a3aff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: background 0.4s ease;
+  transition: background 0.4s ease;
+}
+
+#circleblue1 {
+  margin: auto;
+  width: 25vh;
+  height: 25vh;
+  border-radius: 100%;
+  background: #ffcacaff;
+  margin-top: 5vh;
+  cursor: pointer;
+  -webkit-transition: background 0.4s ease;
+  transition: background 0.4s ease;
+}
+
+#circleblue2 {
+  margin: 2.5vh;
+  width: 20vh;
+  height: 20vh;
+  border-radius: 100%;
+  background: #ffdadaff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: background 0.4s ease;
+  transition: background 0.4s ease;
+}
+
+#pinkufo {
+  height: 10vh;
+  margin: auto;
+  -webkit-filter: contrast(100%);
+          filter: contrast(100%);
+  -webkit-transition: -webkit-filter 0.4s ease;
+  transition: -webkit-filter 0.4s ease;
+  transition: filter 0.4s ease;
+  transition: filter 0.4s ease, -webkit-filter 0.4s ease;
+}
+
+#bluerocket {
+  height: 10vh;
+  margin: auto;
+  -webkit-filter: contrast(0%);
+          filter: contrast(0%);
+  -webkit-transition: -webkit-filter 0.4s ease;
+  transition: -webkit-filter 0.4s ease;
+  transition: filter 0.4s ease;
+  transition: filter 0.4s ease, -webkit-filter 0.4s ease;
+}
+
+#toggle-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 10vh;
+}
+/*# sourceMappingURL=index.css.map */
